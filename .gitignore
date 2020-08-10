@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+admin/src/
+package.json
+package-lock.json
+.gitlab-ci.yml
+gulpfile.js
+npm-debug.log
+phpcs.xml
+phpunit.xml.dist

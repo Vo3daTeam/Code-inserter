@@ -1,0 +1,35 @@
+{
+  "name": "vo3da/custom-code-inserter",
+  "authors": [
+    {
+      "name": "VO3DA Team",
+      "email": "contact@vo3da.tech"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "wp-cli/wp-cli": "^2.4",
+    "composer/composer": "~1.9",
+    "wp-coding-standards/wpcs": "dev-master",
+    "phpcompatibility/php-compatibility": "^9.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1.0",
+    "php-coveralls/php-coveralls": "^2.2",
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "autoload": {
+    "classmap": [
+      "core",
+      "admin",
+      "front"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "core",
+      "admin",
+      "front"
+    ]
+  }
+}
